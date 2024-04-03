@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartNav</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="../Estilos.css">
+<!--     Tipologia de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<!-- CAMBIO DE ICONO -->
+    <link rel="icon" href="..//Imagenes/Logo-SmartNav-Blanco-Transparente.png">
+</head>
+<body>
+    <!-- INICIO de Encabezado -->
+    <header>
+        <div class="contenedor_head">
+            <img src="..//Imagenes/Logo-SmartNav.png" alt="Logo-SmartNav" id="logo-grande">
+            <img src="..//Imagenes/Logo-SmartNav-Negro.png" alt="logo negro" id="logo-pequeño-negro">
+        </div>
+        <nav>
+            <a href="..//Html/Index.html" class="nav">Inicio</a>
+            <a href="..//Html/Sobre-Nosotros.html" class="nav">Sobre Nosotros</a>
+            <a href="..//Html/Contactanos.html" class="nav">Contacto</a>
+        </nav>
+    </header>
+    <!-- FINAL de Encabezado -->
+    <div class="contenedor_General">
+        <div class="contenedor_secundario">
+            <div class="contenedor_texto">
+                <p>SmartNav es un reloj inteligente de última generación que ofrece una amplia gama de funciones para mejorar su estilo de vida. Pudiendose conectar con alexa, y marcando la diferencia con un diseño elegante y moderno, este reloj es perfecto para cualquier ocasión.
+                </p>
+            </div>
+            <div class="contenedor_imagen">
+                <img src="..//Imagenes/reloj-sin-backround.png" alt="">
+            </div>
+            <div class="info">
+                <p><b>Informacion mas especifica, clara y consiza</b></p>
+            </div>
+        </div>
+        <br>
+        <div class="contenedor-cards"> <!--  INICIO CONTENEDOR PARA LAS CARDS 1 -->
+            <div class="card"> <!-- INICIO de Card 1 -->
+                <figura>
+                  <img src="..//Imagenes/cards-pantalla-amoled.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Pantalla táctil AMOLED a color</h3>
+                    <p>La pantalla de alta resolución del SmartNav le permite ver sus notificaciones, mensajes y aplicaciones con facilidad.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton1">Conectar</b></a>
+                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 2 -->
+                <figura>
+                  <img src="..//Imagenes/cards-seguimiento-de-la-salud-y-el-estado-fisico.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Seguimiento de la salud y el estado físico</h3>
+                    <p>El SmartNav monitorea su frecuencia cardíaca, pasos, calorías quemadas y más. También puede realizar un seguimiento de su sueño y brindarle información sobre su calidad de sueño.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton2">Conectar</b></a>
+                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 3 -->
+                <figura>
+                  <img src="..//Imagenes/cards-gps-integrado.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>GPS integrado</h3>
+                    <p>El SmartNav cuenta con GPS integrado para que pueda rastrear sus carreras, caminatas y otras actividades al aire libre.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton3">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+        </div> <!-- FINAL CONTENEDOR PARA LAS CARDS -->
+        <div class="contenedor-cards"> <!--  INICIO CONTENEDOR PARA LAS CARDS 2-->
+            <div class="card"> <!-- INICIO de Card 4 -->
+                <figura>
+                  <img src="..//Imagenes/cards-notificaciones-inteligentes.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Notificaciones inteligentes</h3>
+                    <p>Reciba notificaciones de su teléfono inteligente directamente en su muñeca.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton4">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 5 -->
+                <figura>
+                  <img src="..//Imagenes/cards-musica-y-podcasts.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Música y podcasts</h3>
+                    <p>Almacene y reproduzca música y podcasts directamente desde su reloj.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton5">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 6 -->
+                <figura>
+                  <img src="..//Imagenes/cards-pagos-sin-contacto.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Pagos sin contacto</h3>
+                    <p>Realice pagos sin contacto con el [Nombre del producto] usando Google Pay o Apple Pay.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton6">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+        </div> <!-- FINAL CONTENEDOR PARA LAS CARDS -->
+        <div class="contenedor-cards"> <!--  INICIO CONTENEDOR PARA LAS CARDS 3 -->
+            <div class="card"> <!-- INICIO de Card 7 -->
+                <figura>
+                  <img src="..//Imagenes/cards-resistente-al-agua.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Resistente al agua</h3>
+                    <p>El SmartNav es resistente al agua hasta 50 metros, por lo que puede usarlo en la piscina o en la ducha.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton7">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 8 -->
+                <figura>
+                  <img src="..//Imagenes/cards-larga-duracion-de-la-bateria.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Larga duración de la batería</h3>
+                    <p>El SmartNav tiene una batería de larga duración que puede durar hasta 7 días con una sola carga.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton8">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 9 -->
+                <figura>
+                  <img src="..//Imagenes/cards-mejore-su-estado-fisico.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Mejore su salud y estado físico</h3>
+                    <p>El SmartNav puede ayudarlo a alcanzar sus objetivos de salud y estado físico al brindarle información sobre su actividad diaria y su sueño.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton9">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+        </div> <!-- FINAL CONTENEDOR PARA LAS CARDS -->
+        <div class="contenedor-cards"> <!--  INICIO CONTENEDOR PARA LAS CARDS 4 -->
+            <div class="card"> <!-- INICIO de Card 10 -->
+                <figura>
+                  <img src="..//Imagenes/cards-mantengase-conectado.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Manténgase conectado</h3>
+                    <p>Reciba notificaciones de su teléfono inteligente directamente en su muñeca para que nunca se pierda una llamada, un mensaje o una actualización importante.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton10">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 11 -->
+                <figura>
+                  <img src="..//Imagenes/cards-simplifique-su-vida.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Simplifique su vida</h3>
+                    <p>El SmartNav le permite realizar pagos sin contacto, reproducir música y podcasts, y más, todo desde su muñeca.</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton11">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+            <div class="card"> <!-- INICIO de Card 12 -->
+                <figura>
+                  <img src="..//Imagenes/cards-precio.png" alt="Imagenes">
+                </figura>
+                <div class="contenido-card">
+                    <h3>Precio</h3>
+                    <p>El SmartNav tiene un precio de: COP 1.600.000</p>
+                    <a href="#"><b class="boton" onclick="cambiarTextoColorBoton(event)" id="boton12">Conectar</b></a>                </div>
+              </div> <!-- FINAL de Card -->
+        </div> <!-- FINAL CONTENEDOR PARA LAS CARDS -->
+    </div>
+    <!--  INICIO Footer - pie de pagina -->
+    <footer class="pie-de-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="..//Imagenes/Logo-SmartNav-Blanco-Transparente.png" alt="logo SmartNav">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Futuro, avance y utilidad es lo que nosotros como empresa priorizamos!</p>
+                <p>Buscamos una fuente para promocionar nuestro producto en el mercado laboral de una forma mas estetica y garantizando la simplicidad para entender como interactuar con nosotros!</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100091416934667&mibextid=ZbWKwL" class="fa fa-facebook"><img src="..//Imagenes/FACEBOOK.png" alt="imagen de facebook"></a>
+                    <a href="https://www.instagram.com/21_ecg?igsh=Z2J0cmdrMHNhenNi" class="fa fa-instagram"><img src="..//Imagenes/INSTAGRAM.png" alt="imagen de instagram"></a>
+                    <a href="https://twitter.com/?lang=es" class="fa fa-twitter"><img src="..//Imagenes/SOCIAL MEDIA WHITE ICONS.png" alt="imagen de twitter"></a>
+                    <a href="https://wa.me/qr/OQJTS6U44CW2D1" class="fa fa-whatsapp"><img src="..//Imagenes/WHATSAPP.png" alt="imagen de whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy;2024 <b>SmartNav</b> - Todos los derechos reservados</small>
+        </div>
+    </footer>
+    <!-- FINAL de Footer -->
+    <script src="..//funcionalidad.js"></script>
+</body>
+</html>
